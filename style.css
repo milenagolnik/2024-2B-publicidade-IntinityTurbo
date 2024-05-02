@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --blood-red: #5B160Aff;
+--black-bean: #430F01ff;
+--tawny: #D45A02ff;
+--licorice: #110101ff;
+--lavender-pink: #FEA3DBff;
+--persian-pink: #F28DC6ff;
+--purpureus: #A8499Eff;
+}
+
+body{
+    background: #0f6435;
+    color: #000000;
+}
