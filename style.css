@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&family=Teko:wght@300..700&display=swap');
+
+
 *{
     margin:0;
     padding: 0;
 }
 
 :root{
-    --blood-red: #5B160Aff;
---black-bean: #430F01ff;
---tawny: #D45A02ff;
---licorice: #110101ff;
---lavender-pink: #FEA3DBff;
---persian-pink: #F28DC6ff;
---purpureus: #A8499Eff;
+    --timberwolf: #D6CAC8ff;
+    --caput-mortuum: #582319ff;
+    --rojo: #DA1C2Aff;
+    --rust: #A64413ff;
+    --coquelicot: #FB4812ff;
+    
+--texto-corpo: "Teko", sans-serif;
+--texto-titulo: "Puppies Play", cursive; 
 }
 
 body{
-    background: #0f6435;
+    background: rgb(150, 74, 53);
     color: #000000;
+    font-family: var(--texto-corpo);
+}
+
+-titulo-principal {
+    font-family: var(--texto-titulo);
 }
