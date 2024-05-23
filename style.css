@@ -7,11 +7,12 @@
 }
 
 :root{
-    --timberwolf: #D6CAC8ff;
-    --caput-mortuum: #582319ff;
-    --rojo: #DA1C2Aff;
-    --rust: #A64413ff;
-    --coquelicot: #FB4812ff;
+    --cinza: #D6CAC8ff;
+    --vermelho-escuro: #582319ff;
+    --vermelho: #DA1C2Aff;
+    --laranja-marrom: #A64413ff;
+    --laranja-medio: #FB4812ff;
+    --preto: #000000;
     
 --texto-corpo: "Teko", sans-serif;
 --texto-titulo: "Puppies Play", cursive; 
@@ -23,6 +24,23 @@ body{
     font-family: var(--texto-corpo);
 }
 
--titulo-principal {
-    font-family: var(--texto-titulo);
+.cabecalho{
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho-img{
+    width: 7%;
+    border-radius: 100%;
+}
+
+.cabecalho-nav__link{
+    text-decoration: none;
+    font-family: var(--texto-titulo) ;
+    font-size: 35px;
+    color: var(--vermelho-escuro) ;
+    margin-right: 24px;
 }
