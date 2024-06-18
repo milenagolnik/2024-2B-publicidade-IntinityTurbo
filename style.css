@@ -33,7 +33,7 @@ body{
 }
 
 .cabecalho-img{
-    width: 7%;
+    width: 10%;
     border-radius: 100%;
 }
 
@@ -43,4 +43,52 @@ body{
     font-size: 35px;
     color: var(--vermelho-escuro) ;
     margin-right: 24px;
+}
+
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/imagem\ turbo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.principal-capa__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 32px;
+    color: var(--laranja-marrom);
+    margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa__imagem{
+    border-radius: 0 5% 0 5%;
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa__botao{
+    background-color: var(--vermelho);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--cinza);
+    text-decoration: none;
 }
