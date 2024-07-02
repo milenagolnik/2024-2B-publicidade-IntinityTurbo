@@ -118,6 +118,8 @@ body{
 .propaganda__imagem{
     margin-left: 20%;
     width: 60%;
+    border: 4px solid var(--preto);
+    margin-top: 50px;
 }
 
 .propaganda__titulo{
@@ -134,5 +136,10 @@ body{
 .propaganda__texto{
     font-size: 24px;
     color: var(--laranja-medios);
+}
+
+.propaganda02{
+    display: flex;
+    flex-direction: column;
 }
 
