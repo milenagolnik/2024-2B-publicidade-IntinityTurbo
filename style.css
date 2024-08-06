@@ -33,7 +33,7 @@ body{
 }
 
 .cabecalho-img{
-    width: 10%;
+    width: 8%;
     border-radius: 100%;
 }
 
@@ -142,4 +142,58 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.dispositivos{
+    text-align: center;
+    width: 85%;
+    margin-left: 9%;
+}
+
+.dispositivos__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 48px;
+    color: var(--vermelho);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10em 0;
+}
+
+.lista__item{
+    font-size: 35px;
+    color: var(--preto);
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--preto);
+    margin-left: 1em;
+}
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--preto);
+    font-size: 25px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    width: 7%;
+    border-radius: 50%;
+}
+
+
 
